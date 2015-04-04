@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
 #   get 'sites/edit'
   
-  resources :sites
+ 
 
   devise_for :users
    resources :users#, only: [:update]
